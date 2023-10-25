@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/best"
+    tools:context=".upload_picture">
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <EditText
+        android:id="@+id/txtdata"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnbrowse"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_bg"
+        android:text="Browse" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="390dp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_bg"
+        android:text="Upload" />
+    <TextView
+    android:layout_width="match_parent"
+        android:id="@+id/step1"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnupload"
+    android:layout_marginTop="20dp"
+    android:textColor="#FFFF"
+    android:textSize="18dp"
+    android:text="1) Firsr Click on 3D decoration button."
+    >
+
+</TextView>
+    <TextView
+        android:id="@+id/step2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step1"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"
+        android:textSize="18dp"
+        android:text="1) After Creating your Design Take a Screen Shoot and Upload there."
+        >
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_decoration_part"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="140dp"
+        android:layout_below="@+id/step2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_bg"
+        android:text="3D decorations" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "507421038436",
+    "firebase_url": "https://smart-wed-default-rtdb.firebaseio.com",
+    "project_id": "smart-wed",
+    "storage_bucket": "smart-wed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507421038436:android:3cfa2d77003721d1678c71",
+        "android_client_info": {
+          "package_name": "com.example.smartwed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507421038436-cj1cm84e32mbgcvbk1ra1o89icpahlnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartwed",
+            "certificate_hash": "eb5126310e65cf731e9b8b7b6834b2613e8dd32f"
+          }
+        },
+        {
+          "client_id": "507421038436-d30eng8m25cfbnm5si46p3l23egj3sr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQnsFfkXkACoIpNY8ZBisN3pZeE3QuSVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507421038436-d30eng8m25cfbnm5si46p3l23egj3sr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

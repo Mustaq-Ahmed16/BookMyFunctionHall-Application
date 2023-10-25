@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".add_to_cart"
+            android:exported="true"/>
+        <activity android:name=".feedback"
+            android:exported="true"/>
+        <activity android:name=".new_designs"
+            android:exported="true"/>
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <activity android:name=".upload_picture" />
+        <activity android:name=".admin_header_main" />
+        <activity android:name=".admin_chats" />
+        <activity android:name=".Manager_User" />
+        <activity android:name=".SignUp_Manager" />
+        <activity android:name=".UpdateHall_by_manager" />
+        <activity android:name=".Confirm_Order" />
+        <activity android:name=".Admin_Hall_Remove" />
+        <activity android:name=".showaddhall" />
+        <activity android:name=".Admin_Home" />
+        <activity android:name=".Forget_Password" />
+        <activity android:name=".AddHall" />
+        <activity android:name=".Home_Activity" />
+        <activity android:name=".chat_module" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".OrdersActivity" />
+        <activity android:name=".Admin_login_screen" />
+        <activity android:name=".profile1" />
+        <activity android:name=".Customer_dashboard" />
+        <activity android:name=".SignUp_page" />
+        <activity android:name=".SignInActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

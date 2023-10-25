@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".feedback">
+
+    <TextView
+        android:id="@+id/messages_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Write your Message Here:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24dp">
+
+    </TextView>
+
+    <EditText
+    android:id="@+id/feedback_write"
+    android:layout_width="390dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/messages_feed"
+    >
+
+
+</EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Your Name"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/new_text"
+        android:layout_marginTop="30dp"
+
+        android:layout_below="@+id/feedback_write">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name_feedback"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+   android:layout_centerHorizontal="true"
+        android:layout_below="@+id/new_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="26dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_bg"
+        android:layout_below="@id/name_feedback"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Submit">
+
+    </Button>
+</RelativeLayout>
